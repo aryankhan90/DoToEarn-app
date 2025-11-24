@@ -202,7 +202,7 @@ body{margin:0;background-color:#132632;}
   .frame-card.instant-rewards{width:100%;}
 }
 @media (max-width: 700px){
-  .frames-grid{left:50%;transform:translateX(-50%);width:min(90vw, 520px);grid-template-columns:1fr;padding:0 12px;}
+  .frames-grid{position:static;top:auto;left:auto;transform:none;width:min(90vw, 520px);grid-template-columns:1fr;padding:0 12px;height:auto;margin:24px auto 0;}
   .frame-card,
   .frame-card.complete-tasks,
   .frame-card.daily-challenges,
@@ -215,16 +215,27 @@ body{margin:0;background-color:#132632;}
   .frame-card img{height:auto;object-fit:cover;}
   .below-title{width:min(92vw, 520px);white-space:normal;}
   .below-subtitle{width:min(92vw, 520px);}
-  .faq-title{width:min(92vw, 520px);white-space:normal;}
-  .faq-subtitle{width:min(92vw, 520px);}
+  .page{overflow-x:hidden;}
+  .seam-mask{display:none;}
+  .faq-title{position:static;left:auto;transform:none;width:min(92vw, 520px);white-space:normal;margin:0 auto;}
+  .faq-subtitle{position:static;left:auto;transform:none;width:min(92vw, 520px);margin:12px auto 0;text-align:center;}
+  .faq-grid{position:static;top:auto;left:auto;transform:none;width:min(92vw, 520px);margin:16px auto 0;grid-template-columns:1fr;}
+  .faq-section{position:static;top:auto;height:auto;width:100%;margin:40px auto 0;}
+  .faq-arc-left,.faq-arc-right,.faq-right-arc{display:none;}
   .frame-2095593392,
   .frame-2095593395,
   .frame-2095593394,
-  .frame-2095593406{left:50%;transform:translateX(-50%);width:min(92vw, 520px);height:auto;}
+  .frame-2095593406{position:static;top:auto;left:auto;transform:none;width:min(92vw, 520px);height:auto;margin:24px auto 0;}
   .frame-2095593392 img,
   .frame-2095593395 img,
   .frame-2095593394 img,
   .frame-2095593406 img{width:100%;height:auto;object-fit:contain;border-radius:24px;}
+  .store-row{position:static;top:auto;left:auto;transform:none;margin:24px auto 0;}
+  .steps-title{position:static;left:auto;transform:none;top:auto;width:min(92vw, 520px);margin:24px auto 0;text-align:center;white-space:normal;}
+  .steps-desc{position:static;left:auto;transform:none;top:auto;width:min(92vw, 520px);margin:8px auto 0;text-align:center;}
+  .steps-actions{position:static;left:auto;transform:none;top:auto;margin:16px auto 0;}
+  .steps-cards{position:static;left:auto;transform:none;top:auto;margin:16px auto 0;}
+  .step-card{width:100%;height:auto;}
 }
 
 @media (max-width: 900px){
