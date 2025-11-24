@@ -56,7 +56,7 @@ body{margin:0;background-color:#132632;}
 .frame-2095593395 img{width:100%;height:100%;display:block;object-fit:contain;}
 .frame-2095593394{position:absolute;top:6002px;left:0;width:100vw;height:801px;opacity:1;transform:rotate(0deg);border-radius:24px;overflow:hidden;z-index:4;}
 .frame-2095593394 img{width:100%;height:100%;display:block;object-fit:contain;}
-.frame-2095593406{position:absolute;top:7760px;left:0;width:100vw;height:801px;opacity:1;transform:rotate(0deg);border-radius:24px;overflow:hidden;z-index:6;}
+.frame-2095593406{position:absolute;top:7800px;left:50%;transform:translateX(-50%);width:min(100vw, 1920px);height:677px;opacity:1;rotate:0deg;border-radius:24px;overflow:hidden;z-index:6;}
 .frame-2095593406 img{width:100%;height:100%;display:block;object-fit:contain;}
 
 .faq-section{position:absolute;top:6900px;left:0;width:100vw;height:820px;opacity:1;z-index:6;}
@@ -210,10 +210,11 @@ body{margin:0;background-color:#132632;}
   .frame-card.refer-earn,
   .frame-card.real-money-bottom,
   .frame-card.secure-trusted,
-  .frame-card.instant-rewards{width:100%;}
+  .frame-card.instant-rewards{width:100%;height:auto;}
+  .frame-card{height:auto;}
+  .frame-card img{height:auto;object-fit:cover;}
 }
 
-/* Mobile overrides placed after defaults to ensure proper cascade */
 @media (max-width: 900px){
   .steps-title{left:50%;transform:translateX(-50%);text-align:center;}
   .steps-title span{margin-top:16px;}
